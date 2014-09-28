@@ -6,8 +6,21 @@
     <link rel="stylesheet" href="../jqueryui/smoothness/jquery-ui.css">
     <script src="../jquery/jquery.js"></script>
     <script src="../jqueryui/jquery-ui.js"></script>
+    <script src="../js/snippet.js"></script>
 </head>
 <body>
-    <p>jqueryuiのサンプル</p>
+    <p>jqueryuiのサンプルa</p>
+    <div id="box">box</div>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background: #008000;
+        }
+    </style>
+
+    <script>
+        $('#box').draggable();
+    </script>
 </body>
 </html>
