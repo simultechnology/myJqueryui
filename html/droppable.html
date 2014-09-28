@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="box">box</div>
-    <div class="target">box</div>
+    <div class="target">target</div>
     <style>
         .box {
             width: 50px;
@@ -28,7 +28,13 @@
 
     <script>
         $(function () {
-
+            $('.box').draggable();
+            $('.target').droppable({
+                accept: '.box',
+                drop: function () {
+                    console.log('dropped!!');
+                }
+            });
         });
     </script>
 </body>
