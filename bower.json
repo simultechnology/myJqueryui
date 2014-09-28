@@ -1,0 +1,22 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "homepage": "https://github.com/simultechnology/js_practice",
+  "authors": [
+    "takatsugu ishikawa <tissi0708@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.2.0"
+  },
+  "dependencies": {
+    "jquery-ui": "~1.11.1"
+  }
+}
