@@ -9,18 +9,27 @@
     <script src="../js/snippet.js"></script>
 </head>
 <body>
-    <p>jqueryuiのサンプルa</p>
-    <div id="box">box</div>
+    <div class="box">box</div>
+    <div class="target">box</div>
     <style>
-        #box {
+        .box {
+            width: 50px;
+            height: 50px;
+            background: #cccccc;
+            margin-bottom: 20px;
+        }
+
+        .target {
             width: 100px;
             height: 100px;
-            background: #008000;
+            background: pink;
         }
     </style>
 
     <script>
-        $('#box').draggable();
+        $(function () {
+
+        });
     </script>
 </body>
 </html>
